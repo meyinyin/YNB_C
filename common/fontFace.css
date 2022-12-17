@@ -1,0 +1,17 @@
+@font-face{
+	font-family:'source';
+	src:url('./static/fontFace/NotoSansCJK-Bold-6.otf')
+}
+@font-face {
+	font-family:'FuturaPTLight';
+	src: url('./static/fontFace/ParaType - Futura PT Medium.ttf');
+}
+
+
+
+.NotoSansCJK{
+	font-family:'source', sans-serif;
+}
+.FuturaPTLight{
+	font-family:'FuturaPTLight', sans-serif;
+}

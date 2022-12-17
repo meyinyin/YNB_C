@@ -1,0 +1,93 @@
+.yg-pay-nav {
+    background: linear-gradient(to bottom, #ff5b2e,#fc7658);
+}
+
+
+.yg-green-g {
+		background: rgb(53, 219, 197);
+}
+
+.yg-text-F8{
+	
+	color: #757575;
+}
+
+.yg-text-red{
+	color:#ff5b2e;
+}
+
+.b{
+	
+	border: 1px solid red;
+}
+
+
+.tite-bg{
+	background-color:#333;
+}
+
+.title_grey_bgColor{
+	background:#F2F2F2;
+}
+.recharge-btn {
+	margin-top: 60upx;
+	height: 100upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, #fb9c67, #fc6660);
+	color: #fff;
+	border-radius: 100upx;
+	box-shadow: 2upx 2upx 14upx lighten($color: #FC7265, $amount: 10);
+}
+	
+.bg_black2{ 
+	background:#434343;
+}
+
+.yucunBtn{
+	background:#333333 !important;
+	color: #fae0a6;
+	transition: all 0.5s;
+}
+.yucunBtn:active{
+	background:white !important;
+	color:black;
+	border-radius:100%;
+}
+.textarea_placeholder{
+	color: rgb(180,180,180);
+	font-size:26rpx;
+}
+/* .mongolia{
+	position: relative;
+	z-index: 500;
+}
+.mongolia::after{
+	content:"";
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	background:rgba(12,12,12,0.8);
+	z-index: 1000;
+} */
+	.zhengchang{
+		transform: scale(1);
+		transition: all 0.3s;
+	}
+	.suoxiao{
+		transform: scale(0.8);
+		transition: all 0.3s;
+	}
+	.zhanweiBgPic{
+		background-repeat: no-repeat;
+		background-size: 100% 100%;/* 
+		background-origin:content-box; */
+	}
+	
+	
+	
+	
+	

@@ -1,0 +1,99 @@
+page {
+	background-color: #FFFFFF;
+}
+
+.bg-transparent {
+	background: transparent;
+}
+
+.balance-nav {
+	background: #ec3a46;
+}
+
+.submit-btn-active {
+	color: #fff;
+	height: 80upx;
+	line-height: 80upx;
+	background: #eb5245;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ec3a46, #eb5245);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ec3a46, #eb5245);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	transition: all 0.3s ease-in-out
+}
+
+.submit-btn {
+	color: #333;
+	height: 80upx;
+	line-height: 80upx;
+	background: #f0f0f0;
+	transition: all 0.3s ease-in-out
+}
+
+.bg-hx-red {
+	background: #eb5245;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ec3a46, #eb5245);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ec3a46, #eb5245);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.bg-hx-red_{
+	background: #EC404C;
+}
+
+.bg-hx-white{
+	background: white;
+}
+
+
+
+
+
+.hx-text-red {
+	color: #eb5245;
+}
+
+.hx-cur {
+	position: relative;
+}
+
+.hx-cur::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-bottom: 2px solid;
+}
+
+.shadow-around {
+	box-shadow: 6upx 6upx 8upx rgba(0, 0, 0, 0.1)
+				, -6upx -6upx 16upx rgba(0, 0, 0, 0.1);
+}
+
+.banner-img {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.status_bar {
+	height: var(--status-bar-height);
+	width: 100%;
+	background: transparent;
+}
+
+.top_view {
+	height: var(--status-bar-height);
+	width: 100%;
+	position: fixed;
+	background: #FFFFFF;
+	opacity: .8;
+	top: 0;
+	z-index: 999;
+}
